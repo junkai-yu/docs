@@ -655,7 +655,7 @@ AuthenticationClient().sendEmail(email, scene)
 
 - `email` \<string\> 邮箱
 - `scene` \<EmailScene\> 发送场景，可选值包含：
-  - RESET_PASSWORD_VERIFY_CODE: 发送重置密码验证码邮件；
+  - RESET_PASSWORD: 发送重置密码验证码邮件；
   - FIRST_EMAIL_LOGIN_VERIFY: 发送首次邮箱登录验证邮件；
   - CONSOLE_CONDUCTED_VERIFY: 发送控制台发起的验证邮件；
   - EMAIL_BIND_VERIFY_CODE: 发送邮箱绑定验证码邮件；
